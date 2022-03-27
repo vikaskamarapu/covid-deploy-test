@@ -1,5 +1,5 @@
 {
-  "name": "covid-19-tracker",
+  "name": "http://vikaskamarapu.github.io/covid-deploy-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "bootstrap": "^5.1.3",
     "chart.js": "^2.9.3",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.2.3",
     "leaflet": "^1.6.0",
     "numeral": "^2.0.6",
     "prop-types": "^15.8.1",
@@ -23,6 +24,8 @@
     "reactstrap": "^9.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

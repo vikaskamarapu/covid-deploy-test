@@ -14,13 +14,13 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/joinus" element={<Joinus />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/support" element={<Support />}></Route>
-        <Route path="/signup" element={<Signup />}></Route>
-        <Route path="/faq" element={<Faq />}></Route>
-        <Route path="/ContactUs" element={<ContactUs />}></Route>
+        <Route path="/covid-deploy-test/" element={<Home />}></Route>
+        <Route path="/covid-deploy-test/joinus" element={<Joinus />}></Route>
+        <Route path="/covid-deploy-test/about" element={<About />}></Route>
+        <Route path="/covid-deploy-test/support" element={<Support />}></Route>
+        <Route path="/covid-deploy-test/signup" element={<Signup />}></Route>
+        <Route path="/covid-deploy-test/faq" element={<Faq />}></Route>
+        <Route path="/covid-deploy-test/ContactUs" element={<ContactUs />}></Route>
       </Routes>
     </div>
   )
